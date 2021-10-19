@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd" id="Application_ID" version="8">
+  <display-name>EarProject</display-name>
+  <module>
+    <ejb>EcommerceEJB.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>TP1.war</web-uri>
+      <context-root>TP1</context-root>
+    </web>
+  </module>
+</application>
